@@ -1,10 +1,30 @@
 import { NavbarContainer } from "./NavbarStyled";
 import logo from "../../assets/hc-logo.png";
+import { useEffect, useState } from "react";
 
 function Navbar() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const navbarHeight = document.querySelector(".navbar").offsetHeight;
+      if (window.scrollY > navbarHeight) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <NavbarContainer>
+      <NavbarContainer className={`navbar ${isScrolled ? "scroll" : ""}`}>
         <div className="nav-logo">
           <img className="logo" src={logo} alt="" />
           <p className="nav-logo-txt">Gaming</p>

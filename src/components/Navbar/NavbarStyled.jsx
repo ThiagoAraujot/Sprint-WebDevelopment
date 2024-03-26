@@ -10,6 +10,16 @@ export const NavbarContainer = styled.div`
   top: 0;
   z-index: 1000;
 
+  &.scroll {
+    background: linear-gradient(
+      117deg,
+      #6cc5d9 1.3%,
+      #6cc5d9 48.79%,
+      #1b65a6 100%
+    );
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.249);
+  }
+
   .nav-logo {
     display: flex;
     align-items: center;
@@ -43,6 +53,16 @@ export const NavbarContainer = styled.div`
         color: #1b65a6;
         transition: 0.2s;
       }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .nav-logo {
+      display: flex;
+    }
+
+    .nav-list {
+      display: none;
     }
   }
 `;

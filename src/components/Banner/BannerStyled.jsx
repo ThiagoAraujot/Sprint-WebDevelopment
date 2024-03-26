@@ -1,0 +1,138 @@
+import styled from "styled-components";
+
+const BannerContainer = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2em;
+
+  .banner-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .banner-subtitle {
+    color: rgba(255, 255, 255, 0.84);
+    text-align: center;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 2.0625rem */
+    letter-spacing: 0.15rem;
+  }
+
+  .banner-title {
+    text-align: center;
+    font-size: 11.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%; /* 12.375rem */
+    letter-spacing: -0.3375rem;
+    text-transform: uppercase;
+    background: linear-gradient(
+      179deg,
+      #fff 0.83%,
+      #eaf5ff 52.12%,
+      #b9ddff 86.15%,
+      #63b3ff 92.35%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    user-select: none;
+  }
+
+  .banner-descricao {
+    margin: 0 auto;
+    max-width: 48rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 2rem */
+  }
+
+  .banner-button {
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    width: 13.625rem;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 3.3125rem;
+    background: #c6e94a;
+    border: none;
+
+    color: #003c3c;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 2rem */
+  }
+
+  .banner-button a {
+    text-decoration: none;
+    color: #003c3c;
+  }
+
+  .banner-button:hover {
+    transition: 0.2s;
+    scale: 0.95;
+  }
+
+  .home-scroll {
+    text-decoration: none;
+    color: #1b65a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .home-scroll img {
+    width: 50px;
+  }
+
+  #zebra-img {
+    position: absolute;
+    top: 35%;
+    width: 25rem;
+    height: 25rem;
+    flex-shrink: 0;
+  }
+
+  @media screen and (max-width: 1450px) {
+    #zebra-img {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1120px) {
+    .banner-title {
+      font-size: 8rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .banner-title {
+      font-size: 5em;
+    }
+
+    .banner-subtitle {
+      margin-top: 1em;
+    }
+  }
+`;
+
+export default BannerContainer;
