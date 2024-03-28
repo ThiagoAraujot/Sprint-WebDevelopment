@@ -4,7 +4,7 @@ import BannerContainer from "./BannerStyled";
 function Banner() {
   return (
     <>
-      <BannerContainer>
+      <BannerContainer id="banner">
         <div className="banner-txt">
           <h2 className="banner-subtitle">Bem-vindo(a) ao nosso site!</h2>
           <h1 className="banner-title">HC GAMING</h1>

@@ -8,7 +8,7 @@ const BannerContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 3em;
 
   .banner-txt {
     display: flex;
@@ -28,7 +28,7 @@ const BannerContainer = styled.div`
 
   .banner-title {
     text-align: center;
-    font-size: 11.25rem;
+    font-size: 9rem;
     font-style: normal;
     font-weight: 800;
     line-height: 110%; /* 12.375rem */

@@ -31,11 +31,6 @@ function Navbar() {
         </div>
         <ul className="nav-list">
           <li>
-            <a className="nav-txt" href="#banner">
-              Home
-            </a>
-          </li>
-          <li>
             <a className="nav-txt" href="#public">
               Público
             </a>

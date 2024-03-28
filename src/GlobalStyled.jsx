@@ -12,8 +12,11 @@ const GlobalStyled = createGlobalStyle`
   list-style-type: none;
 }
 
-body {
+html {
   scroll-behavior: smooth;
+}
+
+body {
   width: 100%;
   height: 100%;
   background: linear-gradient(
@@ -42,6 +45,36 @@ body::-webkit-scrollbar-thumb {
 a {
   text-decoration: none;
 }
+
+bold {
+  font-weight: 700;
+  color: #c6e94a;
+}
+
+.number-section {
+    color: rgba(242, 255, 252, 0.53);
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 10.3125rem */
+  }
+
+  .title-section {
+    color: #fff;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 5.5rem */
+  }
+
+  .descricao {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 2rem */
+    text-align: justify;
+  }
 `;
 
 export default GlobalStyled;
