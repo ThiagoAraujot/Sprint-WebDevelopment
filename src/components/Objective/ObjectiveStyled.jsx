@@ -24,6 +24,12 @@ const ObjectiveContainer = styled.section`
       width: 15rem;
     }
   }
+
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+    padding: 2em;
+    text-align: center;
+  }
 `;
 
 export default ObjectiveContainer;

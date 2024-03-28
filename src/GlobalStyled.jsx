@@ -75,6 +75,23 @@ bold {
     line-height: 160%; /* 2rem */
     text-align: justify;
   }
+
+  @media only screen and (max-width: 900px) {
+    .number-section {
+    font-size: 3rem;
+  }
+
+  .title-section {
+    font-size: 2rem;
+  }
+
+  .descricao {
+    font-size: 1em;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  }
 `;
 
 export default GlobalStyled;

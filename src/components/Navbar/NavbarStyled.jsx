@@ -65,4 +65,10 @@ export const NavbarContainer = styled.div`
       display: none;
     }
   }
+
+  @media only screen and (max-width: 900px) {
+    .nav-list {
+      display: none;
+    }
+  }
 `;

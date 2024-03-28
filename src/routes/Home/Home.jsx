@@ -7,6 +7,7 @@ import Negatives from "../../components/Negatives/Negatives.jsx";
 import Gamification from "../../components/Gamification/Gamification.jsx";
 import Positives from "../../components/Positives/Positives.jsx";
 import Objective from "../../components/Objective/Objective.jsx";
+import Forms from "../../components/Forms/Forms.jsx";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Gamification />
       <Objective />
       <Positives />
+      <Forms />
       <Footer />
     </>
   );

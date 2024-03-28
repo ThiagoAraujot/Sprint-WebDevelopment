@@ -39,6 +39,11 @@ const FooterContainer = styled.footer`
     text-align: left;
     color: #e1e1e1;
   }
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    gap: 1em;
+  }
 `;
 
 export default FooterContainer;
