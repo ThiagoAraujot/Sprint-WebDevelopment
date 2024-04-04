@@ -1,15 +1,24 @@
-## Link do Projeto 
+<div align="center">
+  <h1>HC Gaming</h1>
+</div>
+<hr/>
 
-https://sprint-web-development-12rv094f7-thiagoaraujots-projects.vercel.app/
+<p align="center">
+  <a href="#smile-Integrantes">Integrantes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#framed_picture-Layout">Link do Projeto</a>
+</p>
+<hr/>
 
-## Participantes
+## :smile: Integrantes
 
-Thiago Araujo Vieira RM553477
+- [Felipe Schneider - RM552643](https://github.com/felpschneider)
+- [Hugo Santos - RM553266](https://github.com/ThiagoAraujot/CP1-WebDevelopment/commits?author=guguim)
+- [Maria Julia Araujo Rodrigues - RM553384](https://github.com/majuaraujo)
+- [Thiago Araujo Vieira - RM553477](https://github.com/ThiagoAraujot)
+- [Vinicius Centurion - RM554063](https://github.com/vinicenturion)
 
-Felipe Schneider RM552643
+###### Clique no nome para visitar o GitHub
 
-Maria Julia RM553384
+## :framed_picture: Link do Site
 
-Hugo Santos RM553266
-
-Vinicius Centurion RM554063
+Acesse o projeto [HC Gaming](https://sprint-web-development.vercel.app/)
